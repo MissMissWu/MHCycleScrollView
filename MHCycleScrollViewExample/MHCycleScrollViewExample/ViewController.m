@@ -121,13 +121,12 @@
 
 
 #pragma mark - MHCycleScrollViewDelegate
-
- 
+/*
 - (void)cycleScrollView:(MHCycleScrollView *)cycleScrollView didScrollToIndex:(NSInteger)index
 {
     NSLog(@"didScrollToIndex-----[%zd]",index);
 }
- 
+*/
 
 - (void) cycleScrollView:(MHCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
 {
